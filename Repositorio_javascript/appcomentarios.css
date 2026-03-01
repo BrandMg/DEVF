@@ -1,0 +1,41 @@
+body{
+    font-family: Arial;
+    background:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    padding-top:50px;
+}
+
+.container{
+    width:400px;
+    background:white;
+    padding:20px;
+    border:1px solid #ccc;
+}
+
+textarea{
+    width:100%;
+    height:80px;
+    margin-bottom:10px;
+}
+
+button{
+    width:100%;
+    padding:8px;
+    margin-bottom:15px;
+    cursor:pointer;
+}
+
+.comentario{
+    border-top:1px solid #ccc;
+    padding:10px 0;
+}
+
+.boton_borrar{
+    background:red;
+    color:white;
+    border:none;
+    padding:5px;
+    cursor:pointer;
+    font-size:12px;
+}
