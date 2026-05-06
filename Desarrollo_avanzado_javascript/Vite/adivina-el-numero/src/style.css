@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    background-color: #121212; /* fondo oscuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.contenedor {
+    background-color: #1e1e1e; /* cuadro más oscuro */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+#numero {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#mensaje {
+    margin-top: 10px;
+    font-weight: bold;
+}
